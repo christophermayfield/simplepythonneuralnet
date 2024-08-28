@@ -1,6 +1,5 @@
 # simplepythonneuralnet
-creating a simple neural net in python
+creating a simple neural net in python :grinning:
 
 
-:grinning:
 
