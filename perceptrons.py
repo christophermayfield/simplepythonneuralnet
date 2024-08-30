@@ -67,3 +67,6 @@ class Perceptron:
             else:
                 evaluation["wrong"] += 1
         return evaluation
+    
+
+x = 15 
