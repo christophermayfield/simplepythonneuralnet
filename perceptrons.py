@@ -70,3 +70,4 @@ class Perceptron:
     
 
 x = 15 
+my_test = 45
