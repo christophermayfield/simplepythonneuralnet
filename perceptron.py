@@ -17,6 +17,8 @@ ax.scatter(1, 0, color="r")
 ax.scatter(1, 1, color="g")
 plt.plot()
 
+my_var = 22
+
 
 
 
