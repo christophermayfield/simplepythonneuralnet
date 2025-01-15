@@ -1,2 +1,3 @@
 print('hi chris')
-stripped = "chris".strip()
+stripped = "hello chris".strip()
+print(stripped)
