@@ -19,3 +19,4 @@ set_num()
 
 def two_plus_two():
     val = 2 + 2
+    return val
