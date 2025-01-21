@@ -15,3 +15,7 @@ def set_num():
     print(num)
 print(num)
 set_num()
+
+
+def two_plus_two():
+    val = 2 + 2
