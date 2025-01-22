@@ -3,6 +3,9 @@ print('hi chris')
 stripped = "hello chris".strip()
 print(stripped)
 
+my_variable = 5498743
+
+#simply prints the name
 def print_name():
     print("hello chris")
 
