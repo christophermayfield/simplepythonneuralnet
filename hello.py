@@ -30,5 +30,9 @@ def add_two(num):
     val = num + 2
     return val
 
+def add_two_with_two_nums(num1,num2):
+    val = num1 + num2
+    return val
+
 print(add_two(11))
 
