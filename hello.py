@@ -1,4 +1,4 @@
- 
+ #adding a comment into the code
 print('hi chris')
 stripped = "hello chris".strip()
 print(stripped)
