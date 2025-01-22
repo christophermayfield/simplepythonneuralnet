@@ -34,5 +34,10 @@ def add_two_with_two_nums(num1,num2):
     val = num1 + num2
     return val
 
+def add_three_with_three_nums(num1,num2, num3):
+    val = num1 + num2 + num3
+    return val
+
 print(add_two(11))
 
+print("the result is",add_two_with_two_nums(1,599))
