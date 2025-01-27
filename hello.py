@@ -1,43 +1,32 @@
- #adding a comment into the code
-print('hi chris')
-stripped = "hello chris".strip()
-print(stripped)
 
-#adding a variable
-my_variable = 5498743
 
 #simply prints the name
 def print_name():
     print("hello chris")
-
-num = 10
-def set_num():
-    num = 5
-    print(num)
-print(num)
-set_num()
+def packer(*args):
+    for val in args:
+        print(val)
 
 
 def two_plus_two():
     val = 2 + 2
     return val
 
-sum = two_plus_two()
-print(sum * 2)
+def packer2(*args):
+    print(args)
+def calculate_total(*args):
+    total = sum(args)
+    return total
+def unpacker():
+    return (1,2,3)
+var1,var2,var3 = unpacker()
+print('the first value is',var1)
+print('the second value is',var2)
+print('the third value is',var3)
 
-def add_two(num):
-    print(num)
-    val = num + 2
-    return val
+packer('my','homie',55)
+packer2('my', 'homie', 55)
+print(calculate_total(1,0,5098534098))
 
-def add_two_with_two_nums(num1,num2):
-    val = num1 + num2
-    return val
 
-def add_three_with_three_nums(num1,num2, num3):
-    val = num1 + num2 + num3
-    return val
-
-print(add_two(11))
-
-print("the result is",add_two_with_two_nums(1,599))
+#print("the result is",add_two_with_two_nums(1,599))
