@@ -7,5 +7,5 @@ object2 = [6,7,8,9,10]
 #for immutable datatypes like tuples and string, 
 # contacentation involes creating an entirely new object
 # not memory efficient so when making repeat concatenations
-#on an immutable type, consider a new data structure
+#on an immutable type, consider a new data structure entirely
 
