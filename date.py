@@ -11,5 +11,7 @@ whatever = datetime.time()
 print(whatever)
 
 #date
+my_date = datetime.date(2025,3,15) #yesterday (it was currently 2025-3-16)
+print(my_date)
 
 #calculating the difference between times within delta and time delta
