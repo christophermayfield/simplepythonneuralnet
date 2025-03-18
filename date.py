@@ -1,12 +1,13 @@
 import time 
 import datetime
 import math
+
 #number of seconds passed since Jan 1 1970
 current_timestamp = time.time()
+print('number of seconds since Jan 1 1970',current_timestamp)
 
 #dividing it by the number of seconds in a year to get the number of years
 num_years = current_timestamp/31536000
-print(current_timestamp)
 print(num_years)
 
 current_datetime = datetime.time(hour=20,minute=30,second=25) #830pm and 25 seconds
@@ -56,4 +57,24 @@ print(w.strptime('16:00 16/08/2024','%H:%M %d/%m/%Y'))
 
 
 #calculating the difference between times within delta and time delta
+
+#set an alarm for 1 hour and 30 minutes into the future
+alarm = datetime.timedelta(hours = 1, minutes = 30)
+
+#the time when the alarm should go off
+alarm_buzzer_time = alarm + datetime.datetime.now()
+print(alarm_buzzer_time)
+
+
+report = datetime.timedelta(days=72)
+#lets go back 72 days in the past 
+
+report_start_time = datetime.datetime.now() - report
+print(report_start_time)
+
+#lets see how long i've been working for 
+started_work = datetime.datetime(2025,3,17,18)
+finished_work = datetime.datetime.now()
+print(finished_work - started_work)
+
 
