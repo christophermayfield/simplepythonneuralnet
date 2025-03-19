@@ -75,3 +75,4 @@ print(report_start_time)
 started_work = datetime.datetime(2025,3,17,18)
 finished_work = datetime.datetime.now()
 print(finished_work - started_work)
+
