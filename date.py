@@ -76,3 +76,10 @@ started_work = datetime.datetime(2025,3,17,18)
 finished_work = datetime.datetime.now()
 print(finished_work - started_work)
 
+
+#5 minutes in the future 
+now = datetime.datetime.now()
+five_minutes_from_now = now + datetime.timedelta(minutes=5)
+print(five_minutes_from_now)
+
+
