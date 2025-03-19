@@ -55,5 +55,4 @@ print(w.strptime('27 June 2024','%d %B %Y'))
 print(w.strptime('16:00 16/08/2024','%H:%M %d/%m/%Y'))
 
 
-#calculating the difference between times within delta and time delta
-
+/Users/christophermayfield/Library/Messages/Attachments/86/06/5C4A857D-8021-4EA9-BEF5-C21FB84CD233/76403641474__AFDC04BE-72D1-454E-AD6D-BC1A562338EF.heic
