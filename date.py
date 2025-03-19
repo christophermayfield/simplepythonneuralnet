@@ -55,4 +55,23 @@ print(w.strptime('27 June 2024','%d %B %Y'))
 print(w.strptime('16:00 16/08/2024','%H:%M %d/%m/%Y'))
 
 
-/Users/christophermayfield/Library/Messages/Attachments/86/06/5C4A857D-8021-4EA9-BEF5-C21FB84CD233/76403641474__AFDC04BE-72D1-454E-AD6D-BC1A562338EF.heic
+#calculating the difference between times within delta and time delta
+
+#set an alarm for 1 hour and 30 minutes into the future
+alarm = datetime.timedelta(hours = 1, minutes = 30)
+
+#the time when the alarm should go off
+alarm_buzzer_time = alarm + datetime.datetime.now()
+print(alarm_buzzer_time)
+
+
+report = datetime.timedelta(days=72)
+#lets go back 72 days in the past 
+
+report_start_time = datetime.datetime.now() - report
+print(report_start_time)
+
+#lets see how long i've been working for 
+started_work = datetime.datetime(2025,3,17,18)
+finished_work = datetime.datetime.now()
+print(finished_work - started_work)
