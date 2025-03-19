@@ -1,13 +1,12 @@
 import time 
 import datetime
 import math
-
 #number of seconds passed since Jan 1 1970
 current_timestamp = time.time()
-print('number of seconds since Jan 1 1970',current_timestamp)
 
 #dividing it by the number of seconds in a year to get the number of years
 num_years = current_timestamp/31536000
+print(current_timestamp)
 print(num_years)
 
 current_datetime = datetime.time(hour=20,minute=30,second=25) #830pm and 25 seconds
@@ -76,5 +75,10 @@ print(report_start_time)
 started_work = datetime.datetime(2025,3,17,18)
 finished_work = datetime.datetime.now()
 print(finished_work - started_work)
+
+#5 minutes in the future 
+now = datetime.datetime.now()
+five_minutes_from_now = now + datetime.timedelta(minutes=5)
+print(five_minutes_from_now)
 
 
