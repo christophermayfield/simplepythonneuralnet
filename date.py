@@ -1,6 +1,7 @@
 import time 
 import datetime
 import math
+from dateutil import relativedelta
 #number of seconds passed since Jan 1 1970
 current_timestamp = time.time()
 
@@ -83,7 +84,9 @@ five_minutes_from_now = now + datetime.timedelta(minutes=5)
 print(five_minutes_from_now)
 print(2+2)
 
+blah = datetime.timedelta()
+
  #10 minutes in the future 
 ten_minutes_from_now = now + datetime.timedelta(minutes = 10)
 
-
+relative = dateutil.relativedelta.relativedelta()
