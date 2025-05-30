@@ -25,8 +25,7 @@ print('\n')
 print('------- starting nums -------')
 print('\n')
 
-add = lambda x,y: x + y
-print(add(5,3))
+
 
 
 
