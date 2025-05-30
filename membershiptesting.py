@@ -25,6 +25,11 @@ print('\n')
 print('------- starting nums -------')
 print('\n')
 
+add = lambda x,y: x + y
+print(add(5,3))
+
+
+
 
 nums = range(10)
 print(0 in nums)
