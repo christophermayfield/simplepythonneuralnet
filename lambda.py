@@ -10,3 +10,7 @@ def add(x,y):
 print(add(5,3))
 
 
+def say_hello():
+    print("Hello, World!")
+
+say_hello()
