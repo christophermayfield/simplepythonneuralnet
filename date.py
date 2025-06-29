@@ -92,3 +92,25 @@ ten_minutes_from_now = now + datetime.timedelta(minutes = 10)
 relative = relativedelta.relativedelta()
 
 
+alarm = relativedelta.relativedelta(hours = 1, minutes = 30)
+
+print(alarm + datetime.datetime.now())  #1 hour and 30 minutes from now
+
+report = relativedelta.relativedelta(days = 72)
+
+print(report + datetime.datetime.now()) #72 days from now
+
+#calculating the difference between two dates
+
+start_date = datetime.datetime(2025,6,27)
+relative = relativedelta.relativedelta(datetime.datetime.now(),start_date)
+
+#2 days ago as of today june 29th 2025
+print(relative.days)
+
+
+
+
+
+
+
